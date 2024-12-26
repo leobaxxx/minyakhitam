@@ -42,7 +42,7 @@ def process_data(df):
 st.title("Analisis Ekspor Kopi")
 
 # Memuat file CSV
-data_file = "Ekspor_Kopi_Menurut_Negara_Tujuan_Utama_2000-2023.csv"
+data_file = "kopi.csv"
 
 try:
     data = load_data(data_file)
